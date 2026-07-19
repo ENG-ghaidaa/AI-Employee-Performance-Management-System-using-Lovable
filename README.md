@@ -3,570 +3,65 @@
 
 ## Project Background
 
-
-
 This project was developed during my training at the Digital Transformation Agency.
-
 
 
 ## Project Link
 
 https://id-preview--394a9494-8a74-4d9a-81c8-3354174df481.lovable.app/employees
 
+# Screenshots
 
+## 1. Employee Directory
 
+The Employee Directory page provides a complete overview of all employees generated using Artificial Intelligence. The system includes a realistic dataset of 100 employees with detailed information to simulate a real organizational environment.
 
+Features include:
 
----
+- 100 AI-generated employee records.
+- Employee ID and full name.
+- Department and job title.
+- Skills and expertise.
+- Years of experience.
+- Task completion rate.
+- Current workload status.
+- Powerful search by employee name, job title, or skill.
+- Filters by department, skill, availability status, and years of experience.
 
-
-
-## Description
-
-
-
-Oracle APEX Smart Employee Performance Management System is a smart digital transformation solution designed to improve employee management processes using Artificial Intelligence concepts.
-
-
-
-The system helps organizations assign tasks to the most suitable employees by analyzing employee skills, experience, workload, and performance metrics.
-
-
-
-The project demonstrates the practical application of:
-
-
-
-- Artificial Intelligence
-
-- Data Analysis
-
-- Digital Transformation Solutions
-
-- Business Process Optimization
-
-- Web Application Development
-
-
+This page enables managers to quickly browse employee information and locate suitable candidates for task assignments.
+<img width="936" height="438" alt="image" src="https://github.com/user-attachments/assets/8cf6231c-56ee-4e22-9ad5-af42618acb1f" />
+<img width="935" height="409" alt="image" src="https://github.com/user-attachments/assets/3f9b469a-cd70-4764-b35b-14cf31534eb5" />
 
 ---
 
+## 2. AI Task Recommendation
 
+The AI Task Recommendation page allows managers to search for employees based on the required skills for a task.
 
-# Overview
+The recommendation engine analyzes all available employee data and calculates a match score using multiple factors, including:
 
+- Skill matching
+- Years of experience
+- Current workload
+- Performance rate
 
+The system automatically recommends the most suitable employee and displays the match percentage along with the reasons behind the recommendation.
 
-The system provides an intelligent platform that helps managers make better decisions when assigning tasks.
-
-
-
-Using an AI-based recommendation algorithm, the application evaluates employee information and automatically recommends the best candidate based on multiple factors.
-
-
-
----
-
-
-
-# Features
-
-
-
-## AI Task Recommendation
-
-
-
-The system allows managers to:
-
-
-
-- Enter any task name.
-
-- Select task priority.
-
-- Analyze available employees automatically.
-
-- Recommend the most suitable employee.
-
-- Display the match score and recommendation reasons.
-
-
+<img width="958" height="428" alt="image" src="https://github.com/user-attachments/assets/4cae118c-fded-47fb-a271-899355430fbd" />
+<img width="943" height="426" alt="image" src="https://github.com/user-attachments/assets/0462000e-1abc-40dc-a3dc-134885023439" />
 
 ---
 
+## 3. Performance Ranking
 
+The Performance Ranking page provides an overview of the organization's top-performing employees.
 
-## Employee Management
+It displays three ranking categories:
 
-
-
-The system includes:
-
-
-
-- 100 realistic employee records.
-
-- Employee profiles.
-
-- Skills management.
-
-- Certifications tracking.
-
-- Experience analysis.
-
-- Workload monitoring.
-
-- Availability status.
-
-
-
-Each employee contains:
-
-
-
-- Employee ID
-
-- Full Name
-
-- Department
-
-- Job Title
-
-- Skills
-
-- Years of Experience
-
-- Current Tasks
-
-- Completion Rate
-
-- Certifications
-
-- Availability Status
-
-
-
----
-
-
-
-# Dashboard Analytics
-
-
-
-The dashboard provides:
-
-
-
-- Total employees.
-
-- Available employees.
-
-- Busy employees.
-
-- Average completion rate.
-
-- Department statistics.
-
-- Performance analytics.
-
-- Workload analysis.
-
-
-
----
-
-
-
-# Search and Filtering
-
-
-
-Users can filter employees by:
-
-
-
-- Department
-
-- Skills
-
-- Experience
-
-- Availability Status
-
-
-
----
-
-
-
-# Performance Ranking
-
-
-
-The ranking module displays:
-
-
-
-- Top performing employees.
-
-- Highest completion rates.
-
+- Top performers based on overall performance score.
+- Employees with the highest task completion rate.
 - Most experienced employees.
 
+Managers can quickly identify high-performing employees and monitor workload distribution through clear status indicators such as Available, Normal, Busy, and Overloaded.
 
-
----
-
-
-
-# Task History
-
-
-
-The system stores previous recommendations, including:
-
-
-
-- Task name.
-
-- Assigned employee.
-
-- Assignment date.
-
-- Priority level.
-
-- Completion status.
-
-
-
----
-
-
-
-# Notifications
-
-
-
-The system provides alerts for:
-
-
-
-- Successful task assignment.
-
-- High employee workload.
-
-- No suitable employee found.
-
-
-
----
-
-
-
-# AI Recommendation Algorithm
-
-
-
-The employee match score is calculated using the following criteria:
-
-
-
-| Criteria | Weight |
-
-|----------|--------|
-
-| Skill Matching | 50% |
-
-| Years of Experience | 20% |
-
-| Current Workload | 20% |
-
-| Performance Rate | 10% |
-
-
-
-### Formula
-
-
-
-```text
-
-Match Score =
-
-(Skill Match × 50%)
-
-+
-
-(Experience × 20%)
-
-+
-
-(Workload × 20%)
-
-+
-
-(Performance × 10%)
-
-```
-
-
-
-The employee with the highest score is automatically selected.
-
-
-
----
-
-
-
-# Application Pages
-
-
-
-## Dashboard
-
-
-
-Displays:
-
-
-
-- Employee statistics.
-
-- Department distribution.
-
-- Performance analytics.
-
-- Workload status.
-
-
-
----
-
-
-
-## Task Assignment
-
-
-
-Allows managers to:
-
-
-
-- Enter task details.
-
-- Select task priority.
-
-- Receive an AI recommendation.
-
-
-
----
-
-
-
-## Employees
-
-
-
-Features:
-
-
-
-- View all employees.
-
-- Search employees.
-
-- Filter employees.
-
-- View employee profiles.
-
-
-
----
-
-
-
-## Employee Profile
-
-
-
-Displays:
-
-
-
-- Employee ID
-
-- Full Name
-
-- Department
-
-- Job Title
-
-- Skills
-
-- Experience
-
-- Certifications
-
-- Current Tasks
-
-- Completed Tasks
-
-- Performance Score
-
-- Workload Status
-
-
-
----
-
-
-
-## Performance Ranking
-
-
-
-Displays:
-
-
-
-- Top performing employees.
-
-- Highest completion rates.
-
-- Most experienced employees.
-
-
-
----
-
-
-
-## Task History
-
-
-
-Displays:
-
-
-
-- Task name.
-
-- Assigned employee.
-
-- Assignment date.
-
-- Priority.
-
-- Completion status.
-
-
-
----
-
-
-
-# Example Recommendation
-
-
-
-**Task**
-
-
-
-Develop Oracle APEX Page
-
-
-
-**Recommended Employee**
-
-
-
-Ahmed Ali
-
-
-
-**Department**
-
-
-
-Software Development
-
-
-
-**Match Score**
-
-
-
-96%
-
-
-
-**Recommendation Reasons**
-
-
-
-- Strong skill match.
-
-- High experience level.
-
-- Low workload.
-
-- Excellent completion rate.
-
-
-
----
-
-
-
-# Technologies Used
-
-
-
-- Oracle APEX
-
-- React
-
-- TypeScript
-
-- JavaScript
-
-- Tailwind CSS
-
-- Modern UI Components
-
-- Charts and Data Visualization
-
-- Local Sample Database
-
-
-
----
-
-
-
-# Future Improvements
-
-
-
-- Connect with enterprise databases.
-
-- Integrate machine learning models.
-
-- Use real employee data.
-
-- Add user authentication.
-
-- Implement automatic task classification.
-
-- Enhance AI prediction capabilities.
-
-- Add real-time performance monitoring.
-
-
-
----
+<img width="944" height="434" alt="image" src="https://github.com/user-attachments/assets/63f49006-d6dd-45be-93f8-0c7debe0ea7a" />
